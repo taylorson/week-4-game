@@ -1,0 +1,132 @@
+body {
+	margin: 0 auto;
+	background: green;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: black;
+	font-family: 'VT323', monospace;
+}
+
+h1 {
+	font-size: 6em;
+	margin: 40px 0 40px 0;
+	text-align: center;
+	font-family: 'VT323', monospace;
+}
+
+h2 {
+	font-size: 26px; 
+	padding-bottom: 20px;
+	font-family: 'VT323', monospace;
+}
+
+section {
+	float: left;
+	width: 55%;
+	margin-left: 40px;
+}
+
+#instructions {
+	font-size: 18px;
+	padding: 20px;
+	margin-bottom: 40px;
+	background-color: beige;
+	border: 1px solid black;
+	font-family: 'VT323', monospace;
+	opacity: .5;
+}
+
+p {
+	padding: 10px;
+	line-height: 1em;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: 'VT323', monospace;
+}
+
+aside {
+	float: left;
+	margin: 45px 0 0 45px;
+	width: 15%;
+	padding: 20px;
+	background-color: beige;
+	border:1px solid black;
+	font-family: 'VT323', monospace;
+	opacity: .5;
+}
+
+.scoreboard {
+	background-color: beige
+	opacity: .5;
+	padding: 20px;
+	font-family: 'VT323', monospace;
+}
+
+li {
+	font-size: 20px;
+	font-family: 'VT323', monospace;
+}
+
+#number-match {
+	font-size: 36px;
+	line-height: 2em;
+	font-family: 'VT323', monospace;
+}
+
+#total-score {
+	font-size: 30px;
+	font-family: 'VT323', monospace;
+}
+
+.match {
+	clear: both;
+	width: 25%;
+	margin-left: 100px;
+	padding: 20px;
+	background-color: beige;
+	opacity: .5;
+	font-family: 'VT323', monospace;
+}
+
+.images {
+	margin: 80px 0 0 20px;
+	border: none;
+	position: relative;
+}
+
+.crystals {
+  float: middle;
+  width: 115px;
+  height: 115px;
+  padding: 10px;
+  border: none;
+  margin: 45px 0 0 45px;
+}
+
+/* Media queries to correct quirky background & crystal space for smaller screen size, did not complete for tablet/mobile */
+@media screen and (max-width: 1107px) {	
+	.images {
+		margin-top: 60px;		
+	}
+}
+
+@media screen and (max-width: 952px) {	
+	body {
+		background-size: inherit;		
+	}
+}
+
+@media screen and (max-width: 899px) {	
+	.images {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 878px) {	
+	.crystals {
+		width: 120px;
+		height: 120px;	
+	}
+}
